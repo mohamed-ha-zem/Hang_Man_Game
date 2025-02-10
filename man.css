@@ -48,6 +48,8 @@ hr{
     border-radius: 40px;
     margin: 15px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .row .the-draw{
     position: relative;
@@ -315,6 +317,9 @@ hr{
     @media (max-width: 425px) {
         .mo{
             font-size: 20px;
+        }
+        .row .hangman-draw{
+            margin: 0px;
         }
     }
 
